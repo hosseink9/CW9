@@ -20,7 +20,7 @@ def cal(a,b,c):
 print("Welcome")
 while True:
     number1=int(input('Please enter your number one\nExit (e)\n'))
-    if operation=="e":
+    if number1=="e":
         break
     operation=input("Please enter your operation (+,-,*,/)\n")
     number2=int(input('Please enter your number two\n'))
